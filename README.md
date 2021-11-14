@@ -11,4 +11,4 @@ This exercise was created by the [North Wales Adoption Service](https://northwal
 
 Content © North Wales Adoption Service 2021
 
-HTML, CSS and JavaScript code © Martin Bannister 2021
+HTML, CSS and JavaScript code © Martin Bannister-Kelly 2021
