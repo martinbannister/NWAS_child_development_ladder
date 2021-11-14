@@ -12,3 +12,16 @@ This exercise was created by the [North Wales Adoption Service](https://northwal
 Content © North Wales Adoption Service 2021
 
 HTML, CSS and JavaScript code © Martin Bannister-Kelly 2021
+
+## Testing
+Page testing can be found in the [Testing Document](/docs/testing.md).
+
+---
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
