@@ -92,6 +92,12 @@ h2 {
   margin: 10px 0;
 }
 
+.save > label {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1667rem;
+  padding: 0.25em 0.6875em;
+}
+
 #save {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
