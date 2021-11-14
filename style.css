@@ -45,7 +45,6 @@ h2 {
   text-align: center;
   font-size: 2.75vw;
   clear: both;
-/*   max-width: 45vw; */
 }
 
 #left {
@@ -75,7 +74,7 @@ h2 {
 #right::before {
   content: "";
   position: absolute;
-  left: -4%;
+  left: calc(calc(calc(0px - calc(100% - 40vw)) / 2) + 14px);
   width: 100%;
   height: 100%;
   margin: auto;
@@ -172,4 +171,15 @@ h2 {
   margin: 0 auto;
   opacity: 0;
   transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  .brick {
+    font-size: 12px;
+  }
+  
 }
