@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&family=Lato:wght@400;700&display=swap');
 
 * {
   --pink: #E72276;
@@ -75,14 +75,14 @@ h2 {
 }
 
 .brick {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8vw;
   width: 40vw;
   min-height: 29px;
   color: white;
   background-color: var(--purple);
   text-align: center;
-  font-size: 1.8vw;
   padding: 5px 3px 5px;
-  font-family: 'Lato', sans-serif;
   cursor: move;
   box-sizing: border-box;
 }
@@ -94,25 +94,31 @@ h2 {
 
 #save {
   font-family: 'Lato', sans-serif;
-  color: white;
-  border-radius: 16px;
+  font-weight: 700;
+  font-size: 1.1667rem;
+  color: #141414;
+  border-radius: 1em;
   background-color: var(--orange);
   border: 1px solid var(--orange);
-  padding: 4px 11px;
+  padding: 0.25em 0.6875em;
 }
 
 #urlSave {
-  border-radius: 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1667rem;
+  border-radius: 1em;
   width: 50vw;
-  padding: 2px 11px;
+  padding: 0.125em 0.6875em;
 }
 
 #copyToClipboard {
-  border-radius: 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1667rem;
+  border-radius: 1em;
   background-color: var(--purple);
   color: white;
   border: 1px solid var(--purple);
-  padding: 4px 11px;
+  padding: 0.25em 0.6875em;
 }
 
 .footer {
